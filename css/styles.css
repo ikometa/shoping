@@ -640,9 +640,6 @@ progress {
   margin-right: auto;
   margin-left: auto;
  position:fixed; 
-  top:120px;
-  bottom:0px; 
-  overflow:auto; 
 }
 
 @media (min-width: 576px) {
