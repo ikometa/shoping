@@ -92,7 +92,7 @@
 }
 
 body {
- background: url('../images/background.jpg') no-repeat;
+ background: white;
  background-attachment: fixed;
  background-position: center top;
   margin: 0;
