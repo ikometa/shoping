@@ -92,6 +92,9 @@
 }
 
 body {
+ background: url('../images/background.jpg') no-repeat;
+ background-attachment: fixed;
+ background-position: center top;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -7784,6 +7787,7 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+  background: white !important;
 }
 
 .pt-0 {
@@ -8159,14 +8163,7 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-dark {
-  --bs-bg-opacity: 1;
-  background: url('../images/background.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-}
+
 
 .bg-black {
   --bs-bg-opacity: 1;
